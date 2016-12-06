@@ -10,13 +10,22 @@
 </head>
 
 <body>
+
     <div class="content">
         <img class="last" id="imgbtn_last" src="./images/last.png" />
         <img class="play" id="imgbtn_play" src="./images/play.png" />
         <img class="next" id="imgbtn_next" src="./images/next.png" />
     </div>
-    <audio id="myAudio">
-    </audio>
+    <div class = "processdiv">
+        <span>播放事件</span>
+        <div class="processbar">
+            <div class="processbar_left"></div>
+            <div class="processbar_right"></div>
+        </div>
+        <span>剩余事件</span>
+    </div>
+    <audio id="myAudio"></audio>
+
     <script type="text/javascript" src="./js/index.js"></script>
 </body>
 
